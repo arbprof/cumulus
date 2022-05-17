@@ -11,13 +11,13 @@ polkadot-service = { git = "https://github.com/purestake/polkadot", branch = "mo
 cumulus-primitives-core = { path = "../../primitives/core" }
 cumulus-relay-chain-interface = { path = "../relay-chain-interface" }
 
-sp-core = { git = "https://github.com/purestake/substrate", branch = "moonbeam-polkadot-v0.9.19" }
-sp-api = { git = "https://github.com/purestake/substrate", branch = "moonbeam-polkadot-v0.9.19" }
-sp-runtime = { git = "https://github.com/purestake/substrate", branch = "moonbeam-polkadot-v0.9.19" }
-sp-state-machine = { git = "https://github.com/purestake/substrate", branch = "moonbeam-polkadot-v0.9.19" }
-sc-client-api = { git = "https://github.com/purestake/substrate", branch = "moonbeam-polkadot-v0.9.19" }
-sp-storage = { git = "https://github.com/purestake/substrate", branch = "moonbeam-polkadot-v0.9.19" }
-sc-rpc-api = { git = "https://github.com/purestake/substrate", branch = "moonbeam-polkadot-v0.9.19" }
+sp-core = { git = "https://github.com/arbprof/substrate", branch = "moonbeam-polkadot-v0.9.19" }
+sp-api = { git = "https://github.com/arbprof/substrate", branch = "moonbeam-polkadot-v0.9.19" }
+sp-runtime = { git = "https://github.com/arbprof/substrate", branch = "moonbeam-polkadot-v0.9.19" }
+sp-state-machine = { git = "https://github.com/arbprof/substrate", branch = "moonbeam-polkadot-v0.9.19" }
+sc-client-api = { git = "https://github.com/arbprof/substrate", branch = "moonbeam-polkadot-v0.9.19" }
+sp-storage = { git = "https://github.com/arbprof/substrate", branch = "moonbeam-polkadot-v0.9.19" }
+sc-rpc-api = { git = "https://github.com/arbprof/substrate", branch = "moonbeam-polkadot-v0.9.19" }
 
 futures = "0.3.21"
 futures-timer = "3.0.2"
