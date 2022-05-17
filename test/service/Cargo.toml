@@ -43,9 +43,9 @@ sp-trie = { git = "https://github.com/arbprof/substrate", branch = "moonbeam-pol
 substrate-test-client = { git = "https://github.com/arbprof/substrate", branch = "moonbeam-polkadot-v0.9.19" }
 
 # Polkadot
-polkadot-primitives = { git = "https://github.com/purestake/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
-polkadot-service = { git = "https://github.com/purestake/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
-polkadot-test-service = { git = "https://github.com/purestake/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
+polkadot-primitives = { git = "https://github.com/arbprof/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
+polkadot-service = { git = "https://github.com/arbprof/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
+polkadot-test-service = { git = "https://github.com/arbprof/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
 
 # Cumulus
 cumulus-client-cli = { path = "../../client/cli" }
@@ -66,7 +66,7 @@ futures = "0.3.5"
 portpicker = "0.1.1"
 
 # Polkadot dependencies
-polkadot-test-service = { git = "https://github.com/purestake/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
+polkadot-test-service = { git = "https://github.com/arbprof/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
 
 # Substrate dependencies
 sc-cli = { git = "https://github.com/arbprof/substrate", branch = "moonbeam-polkadot-v0.9.19" }

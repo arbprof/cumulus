@@ -15,9 +15,9 @@ sp-std = { git = "https://github.com/arbprof/substrate", default-features = fals
 sp-trie = { git = "https://github.com/arbprof/substrate", default-features = false, branch = "moonbeam-polkadot-v0.9.19" }
 
 # Polkadot
-polkadot-core-primitives = { git = "https://github.com/purestake/polkadot", default-features = false, branch = "moonbeam-polkadot-v0.9.19" }
-polkadot-parachain = { git = "https://github.com/purestake/polkadot", default-features = false, branch = "moonbeam-polkadot-v0.9.19" }
-polkadot-primitives = { git = "https://github.com/purestake/polkadot", default-features = false, branch = "moonbeam-polkadot-v0.9.19" }
+polkadot-core-primitives = { git = "https://github.com/arbprof/polkadot", default-features = false, branch = "moonbeam-polkadot-v0.9.19" }
+polkadot-parachain = { git = "https://github.com/arbprof/polkadot", default-features = false, branch = "moonbeam-polkadot-v0.9.19" }
+polkadot-primitives = { git = "https://github.com/arbprof/polkadot", default-features = false, branch = "moonbeam-polkadot-v0.9.19" }
 
 [features]
 default = [ "std" ]

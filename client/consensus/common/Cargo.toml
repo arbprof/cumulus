@@ -22,7 +22,7 @@ sp-runtime = { git = "https://github.com/arbprof/substrate", branch = "moonbeam-
 sp-trie = { git = "https://github.com/arbprof/substrate", branch = "moonbeam-polkadot-v0.9.19" }
 
 # Polkadot
-polkadot-primitives = { git = "https://github.com/purestake/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
+polkadot-primitives = { git = "https://github.com/arbprof/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
 
 # Cumulus
 cumulus-relay-chain-interface = { path = "../../relay-chain-interface" }

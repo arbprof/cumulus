@@ -18,10 +18,10 @@ sp-core = { git = "https://github.com/arbprof/substrate", branch = "moonbeam-pol
 sp-runtime = { git = "https://github.com/arbprof/substrate", branch = "moonbeam-polkadot-v0.9.19" }
 
 # Polkadot
-polkadot-node-primitives = { git = "https://github.com/purestake/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
-polkadot-node-subsystem = { git = "https://github.com/purestake/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
-polkadot-overseer = { git = "https://github.com/purestake/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
-polkadot-primitives = { git = "https://github.com/purestake/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
+polkadot-node-primitives = { git = "https://github.com/arbprof/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
+polkadot-node-subsystem = { git = "https://github.com/arbprof/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
+polkadot-overseer = { git = "https://github.com/arbprof/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
+polkadot-primitives = { git = "https://github.com/arbprof/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
 
 # Cumulus
 cumulus-client-consensus-common = { path = "../consensus/common" }
@@ -38,7 +38,7 @@ sp-state-machine = { git = "https://github.com/arbprof/substrate", branch = "moo
 sp-tracing = { git = "https://github.com/arbprof/substrate", branch = "moonbeam-polkadot-v0.9.19" }
 
 # Polkadot
-polkadot-node-subsystem-test-helpers = { git = "https://github.com/purestake/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
+polkadot-node-subsystem-test-helpers = { git = "https://github.com/arbprof/polkadot", branch = "moonbeam-polkadot-v0.9.19" }
 
 # Cumulus
 cumulus-test-client = { path = "../../test/client" }
